@@ -1,0 +1,25 @@
+body{
+	background-image: url(../background2-bibo.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.h1tag4{
+    text-align: center;
+    padding-top: 0;
+   font-size: 33px;
+    letter-spacing: 0cm;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.ptag4{
+    text-align: center;
+	font-size: 25px;
+	color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 0%;
+}
+.contain{
+    display: inline-block;
+}

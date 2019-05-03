@@ -1,0 +1,57 @@
+.h1tag4{
+color: white;
+ font-family: 'Open Sans Condensed', sans-serif;
+ 
+
+}
+.h4tag{
+    text-align: center;
+	font-size: 25px;
+	color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 0%;
+}
+.p1tag{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.h2tag1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 0%;
+}
+.table.table-bordered tbody tr
+{
+	border: 1px solid white;
+    color: white;
+}
+.table-bordered tbody tr td {
+	border: 1px solid white;
+    color: white;
+    padding: 15px 100px 15px 100px;
+    
+   
+	
+  }
+  .table-bordered tbody tr .ta{
+      padding-right: 63%;
+      
+    
+	  
+  }
+  .table-bordered{
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0%;
+     
+  }
+  .h3tag1{
+padding-top: 0%;
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 25px;
+
+  }
