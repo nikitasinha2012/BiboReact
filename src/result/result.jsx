@@ -32,12 +32,6 @@ class result extends Component {
                     breathe_in_percent,
                     breathe_out_percent
                 });
-                if(percentage_in>percentage_out){
-                 
-                }
-                else{
-
-                }
             })
     }
     onNextPage() {
