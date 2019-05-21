@@ -1,22 +1,5 @@
 import React, { Component } from "react";
 import './nextpage4.css';
-// import { faHome } from "@fortawesome/free-solid-svg-icons";
-// import { faAmbulance } from "@fortawesome/free-solid-svg-icons";
-// import { faArchway } from "@fortawesome/free-solid-svg-icons";
-// import { faBell } from "@fortawesome/free-solid-svg-icons";
-// import { faBatteryHalf } from "@fortawesome/free-solid-svg-icons";
-// import { faClock } from "@fortawesome/free-solid-svg-icons";
-// import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
-// import { faNewspaper } from "@fortawesome/free-solid-svg-icons";
-// import { faChess } from "@fortawesome/free-solid-svg-icons";
-// import { faPlaceOfWorship } from "@fortawesome/free-solid-svg-icons";
-// import { faHotel } from "@fortawesome/free-solid-svg-icons";
-// import { faUniversity } from "@fortawesome/free-solid-svg-icons";
-// import { faBug } from "@fortawesome/free-solid-svg-icons";
-// import { faBible } from "@fortawesome/free-solid-svg-icons";
-// import { faMicrophone } from "@fortawesome/free-solid-svg-icons";
-// import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AllButtons from "../Components/AllButtons";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -47,7 +30,6 @@ class nextpage4 extends Component {
         if(this.readyState==4 && this.status==200)
           {
            console.log('SUCCESS!!');
-           // console.log(result);
            window.location.replace("/result");
           } else {
             console.log("request failed")
