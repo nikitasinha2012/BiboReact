@@ -59,7 +59,7 @@ class result extends Component {
                                 </tr>
                                 <tr>
                                     <td>Out</td>
-                                    <td id={`${percentage_in > percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
+                                    <td id={`${percentage_in < percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
                                     <td id="out_score1" name="outscore1">{this.state.percentage_out}</td>
                                 </tr>
                             </tbody>
