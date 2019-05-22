@@ -54,12 +54,12 @@ class result extends Component {
                             <tbody>
                                 <tr>
                                     <td>In</td>
-                                    <td id={`${percentage_in > percentage_out ? 'in_score' : ''}`} name="inscore">{this.state.correct_in}</td>
+                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`} name="inscore">{this.state.correct_in}</td>
                                     <td id="in_score1" name="inscore1">{this.state.percentage_in}</td>
                                 </tr>
                                 <tr>
                                     <td>Out</td>
-                                    <td id={`${percentage_in < percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
+                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
                                     <td id="out_score1" name="outscore1">{this.state.percentage_out}</td>
                                 </tr>
                             </tbody>

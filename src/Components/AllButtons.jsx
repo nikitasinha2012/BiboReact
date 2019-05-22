@@ -32,20 +32,25 @@ class AllButtons extends Component {
         this.props.onNextPage(this.state.selected_id)
     }
 
-    onSelect(id){
+    onSelect(id)
+    {
         const { selected_id } = this.state;
-        if(selected_id.length >=5){
-        this.notify(`You have already selected 5.Click on ${this.props.name} to continue.`);
-        console.log('here');
-        }else {
-            if  (selected_id.indexOf(id) === -1)
+        console.log('selected_id', selected_id)
+        if  (selected_id.indexOf(id) === -1)
+        {
+            if(selected_id.length > 4) 
+            {
+            this.notify(`You have already selected 5.Click on ${this.props.name} to continue.`)
+            } else {
             selected_id.push(id)
-            else{
-                let i=selected_id.indexOf(id)
-                selected_id.splice(i, 1);
-            }
-        } 
-     this.setState({selected_id})
+        }
+        }
+        else
+        {
+            let i=selected_id.indexOf(id)
+            selected_id.splice(i, 1);
+        }
+        this.setState({selected_id})
     }
     getByColor(id) {
         const { selected_id}=this.state;
