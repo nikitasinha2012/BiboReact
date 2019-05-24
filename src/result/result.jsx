@@ -56,13 +56,13 @@ class result extends Component {
                             <tbody>
                                 <tr>
                                     <td>In</td>
-                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`} name="inscore">{this.state.correct_in}</td>
-                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`}name="inscore1">{this.state.percentage_in}</td>
+                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`} name="inscore">{this.state.correct_in} correct</td>
+                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`}name="inscore1">{this.state.percentage_in}% correct</td>
                                 </tr>
                                 <tr>
                                     <td>Out</td>
-                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
-                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore1">{this.state.percentage_out}</td>
+                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out} correct</td>
+                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore1">{this.state.percentage_out}% correct</td>
                                 </tr>
                             </tbody>
                         </table>
