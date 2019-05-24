@@ -33,6 +33,8 @@ class result extends Component {
                     breathe_in_percent,
                     breathe_out_percent
                 });
+            }).catch((e) =>{
+                window.location.href = '/network_error'
             })
     }
     onNextPage() {
@@ -55,12 +57,12 @@ class result extends Component {
                                 <tr>
                                     <td>In</td>
                                     <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`} name="inscore">{this.state.correct_in}</td>
-                                    <td id="in_score1" name="inscore1">{this.state.percentage_in}</td>
+                                    <td id={`${this.state.percentage_in > this.state.percentage_out ? 'in_score' : ''}`}name="inscore1">{this.state.percentage_in}</td>
                                 </tr>
                                 <tr>
                                     <td>Out</td>
                                     <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore">{this.state.correct_out}</td>
-                                    <td id="out_score1" name="outscore1">{this.state.percentage_out}</td>
+                                    <td id={`${this.state.percentage_in < this.state.percentage_out ? 'in_score' : ''}`} name="outscore1">{this.state.percentage_out}</td>
                                 </tr>
                             </tbody>
                         </table>
