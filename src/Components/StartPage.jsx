@@ -5,8 +5,7 @@ class StartPage extends Component {
         this.onNextPage = this.onNextPage.bind(this);
     }
     onNextPage(){
-        this.props.history.push('/nextpage1');
-        
+        this.props.history.push('/nextpage1'); 
     }
     render() {
         return (

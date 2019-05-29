@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './nextpage3.css';
-import RandomButtons from '../Components/RandomButtons';
+import RandomButtons from '../RandomButtons';
 class nextpage1 extends Component {
     render() {
         return (
@@ -8,5 +8,4 @@ class nextpage1 extends Component {
         )
     }
 }
-
 export default nextpage1;

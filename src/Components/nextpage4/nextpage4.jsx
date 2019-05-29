@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './nextpage4.css';
-import AllButtons from "../Components/AllButtons";
+import AllButtons from "../AllButtons";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 class nextpage4 extends Component {
@@ -42,7 +42,6 @@ class nextpage4 extends Component {
          }   
         }
     calculateCorrectAnswer = (random,selected) => {
-       
         const formattedRandom = random.split(',');
         const formattedSelcted = selected.split(',')
         var correct = 0;
@@ -56,7 +55,6 @@ class nextpage4 extends Component {
         }
         return correct;
     }
-    
     render() {
         
         return (<AllButtons history={this.props.history}  step={'4'} pagename={'/result'} name={'DONE'} onNextPage={this.onNextPage}/>

@@ -8,8 +8,7 @@ class result extends Component {
         this.state = { total_participants: 0, correct_in: 0, correct_out: 0, percentage_in: 0, percentage_out: 0, previous_result: 0 }
     }
     componentDidMount() {
-        let result = this.makeRequest()
-       
+        let result = this.makeRequest()   
     }
     makeRequest = () => {
         fetch('https://rocky-bastion-33424.herokuapp.com/store/getitem', 

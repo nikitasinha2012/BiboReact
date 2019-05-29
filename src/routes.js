@@ -9,8 +9,6 @@ import nextpage4 from './nextpage4/nextpage4';
 import result from './result/result';
 import networkError from './Components/networkError';
 import PageNotFound from './Components/pageNotFound';
-
-
 const Routes = () => {
     return(
         <Router>

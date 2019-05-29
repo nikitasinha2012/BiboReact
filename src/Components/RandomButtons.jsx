@@ -17,7 +17,6 @@ import { faBible} from "@fortawesome/free-solid-svg-icons";
 import { faMicrophone } from "@fortawesome/free-solid-svg-icons";
 import { faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 class RandomButtons extends Component {
     breathe_in_database=[];
     database_in = [
@@ -45,7 +44,6 @@ class RandomButtons extends Component {
             timeleft : 10
         }
     }
-
     componentDidMount() {
         const { random} = this.props;
        this.timer = setInterval(this.updateTimer(),1000);
